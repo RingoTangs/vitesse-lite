@@ -19,5 +19,13 @@
     "forceConsistentCasingInFileNames": true,
     "skipLibCheck": true
   },
-  "exclude": ["dist", "node_modules", "eslint.config.js"]
+  "include": [
+    "src/**/*.ts",
+    "src/**/*.vue",
+    "test/**/*.ts",
+    "test/**/*.vue",
+    "types/**/*.d.ts",
+    "uno.config.ts",
+    "vite.config.ts"
+  ]
 }
