@@ -2,8 +2,6 @@
 
 exports[`component of HelloWorld.vue > should render 1`] = `
 "<div>
-  <h1><span>Hello World</span><span>10</span></h1><button type=\\"button\\" b=\\"~ 1px solid blue\\"> Increment </button>
+  <h1><span>Hello World</span><span>10</span></h1><button b=\\"~ 1px solid blue\\" rounded=\\"\\" p-1=\\"\\" type=\\"button\\"> Increment </button>
 </div>"
 `;
-
-exports[`component of TheCounter.vue > should render 1`] = `"<div>10 <button class=\\"inc\\"> + </button><button class=\\"dec\\"> - </button></div>"`;
